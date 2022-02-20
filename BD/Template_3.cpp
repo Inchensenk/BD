@@ -21,6 +21,7 @@ void menu()
 }
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	//русификация консоли вводв/ввывода
 	SetConsoleCP(1251);//установка кодовой страницы win-cp 1251 в поток ввода
 	SetConsoleOutputCP(1251);//установка кодовой страницы win-cp 1251 в поток вывода 
